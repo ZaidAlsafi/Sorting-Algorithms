@@ -30,15 +30,8 @@ public class Populate {
             TempNumber=rand.nextInt(0,size);
 
             if(!list.contains(TempNumber)){
-                System.out.println(TempNumber +" is added to the List: "+ list);
                 list.add(TempNumber);
-                System.out.println(list);
-            
-            }else{
-                System.out.println("Error! "+TempNumber +" is a duplicate number. List: "+list);
-
             }
-
         }
 
         return list;

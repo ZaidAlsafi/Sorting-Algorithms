@@ -8,6 +8,8 @@ public static void main(String[] args){
 
     list=Populate.UniqueList(size);
 
-    System.out.println(list);
+    System.out.println("Bubble Sort: "+Sorting.BubbleSort(list));
+
 }
+
 }
